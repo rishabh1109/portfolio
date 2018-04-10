@@ -1,0 +1,103 @@
+/* Page */
+
+* {
+font-family: 'Comic Sans MS', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+
+/* Header */
+
+.header {
+  border-bottom: 10px solid #000000;
+  margin: 20px 0 20px;
+}
+
+.profilepic {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.profilepic img {
+  max-width: 120px;
+  border-radius: 50%;
+}
+
+.headertxt {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Main */
+
+main img {
+  width: 100%;
+}
+
+/* Footer */
+
+footer h2 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 400;
+  color: #808080;
+}
+
+footer a {
+  color: #7B68EE;
+  text-decoration: underline;
+  word-wrap: break-word;
+}
+
+article img {
+  width: 80%;
+  height: 80%;
+}
+
+/* Responsiveness*/
+
+@media (max-width: 50em) {
+
+  .header-text, .profilepic{
+    text-align: center;
+  }
+
+  .headertxt h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .headertxt h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
+
+@media (min-width: 50em) {
+
+  .headertxt {
+    text-align: right;
+  }
+
+  .profilepic {
+    text-align: left;
+  }
+
+  .headertxt h1 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+
+  .headertxt h3 {
+    font-weight: 400;
+    margin-top: 0.5em;
+  }
+
+}
